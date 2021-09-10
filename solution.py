@@ -18,7 +18,7 @@ print("[+]String: " + strip)
 # Encrypt the string
 
 hashed = hashlib.md5(strip.encode()).hexdigest()
-print("[+]Hash encrypted: " + hashed)
+print("[+]String encrypted: " + hashed)
 
 # Send the hash to the Site 
 
